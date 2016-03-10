@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="author" content="Michael Du Toit" />
-	<meta name="title" content="Michael Du Toit" />
 	<style>
 		.container-block {width:30%;height:auto;margin:0 auto;background-color:#FF543E;border:0.5em solid #B21F0D;color:white;font-weight:bold;text-align:center;padding:5%;}
 	</style>
