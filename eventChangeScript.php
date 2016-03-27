@@ -23,24 +23,25 @@
 		$event4Date = strtotime("2016-03-01 18:30:00"); /*Insert Event 4 Date*/
 		$event5Date = strtotime("2016-03-15 18:30:00"); /*Insert Event 5 Date*/
 		$event6Date = strtotime("2016-03-29 18:30:00"); /*Insert Event 6 Date*/
+		$before_date_str = "Next Event: ";
 
 		if($today < $event1Date){
-			echo "Next Event: 19 January";
+			echo $before_date_str . "19 January";
 			}
 		elseif($today > $event1Date && $today < $event2Date){
-			echo "Next Event: 2 February";
+			echo $before_date_str . "2 February";
 			}
 		elseif($today > $event2Date && $today < $event3Date){
-			echo "Next Event: 16 February";
+			echo $before_date_str . "16 February";
 			}
 		elseif($today > $event3Date && $today < $event4Date){
-			echo "Next Event: 1 March";
+			echo $before_date_str . "1 March";
 			}
 		elseif($today > $event4Date && $today < $event5Date){
-			echo "Next Event: 15 March";
+			echo $before_date_str . "15 March";
 			}
 		elseif($today > $event5Date && $today < $event6Date){
-			echo "Next Event: 29 March";
+			echo $before_date_str . "29 March";
 			}
 		elseif($today > $event6Date){
 			echo "See you again at the next Series";
